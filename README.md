@@ -14,7 +14,7 @@ $ mkdir -p ~/.vim/bundle
 $ vim +PluginInstall
 ```
 ## Install/build some external stuff
-- Build [the_silver_searcher](https://github.com/ggreer/the_silver_searcher).
+- Install [the_silver_searcher](https://github.com/ggreer/the_silver_searcher).
 - Build [Command-T](https://github.com/wincent/command-t):
 ```
 $ cd ~/.vim/bundle/Command-T/
