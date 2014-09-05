@@ -40,6 +40,11 @@ else
 endif
 colorscheme solarized
 
+highlight clear SignColumn
+highlight SignifySignAdd    cterm=bold ctermfg=120
+highlight SignifySignDelete cterm=bold ctermfg=52
+highlight SignifySignChange cterm=bold ctermfg=226
+
 set tabstop=2 shiftwidth=2 expandtab
 set nu
 set mouse=a
