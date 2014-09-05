@@ -28,7 +28,7 @@ Visit homepages of particular plugins to learn more about all of them. Nonethele
 - `:Ag <pattern>` - search for pattern through all the codes.
 - `:NERDTree` - show up NERDTree.
 - `\cc`, `\cu` - comment/uncomment code.
-- watch vimcasts about how to effectively use [fugitive](https://github.com/tpope/vim-fugitive).
+- watch vimcasts about how to effectively work with git using [fugitive](https://github.com/tpope/vim-fugitive).
 
 # Update
 ```
