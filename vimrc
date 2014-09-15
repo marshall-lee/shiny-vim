@@ -23,7 +23,7 @@ if has('gui_running')
 else
   Plugin 'fholgado/minibufexpl.vim'
 endif
-"Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'rking/ag.vim'
 Plugin 'bling/vim-airline'
