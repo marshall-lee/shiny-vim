@@ -33,6 +33,8 @@ call vundle#end()
 syntax on
 filetype plugin indent on
 
+set t_Co=256
+
 if has('gui_running')
   set background=light
 else
