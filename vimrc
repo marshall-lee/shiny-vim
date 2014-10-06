@@ -40,6 +40,7 @@ if has('gui_running')
 else
   set background=dark
 endif
+let g:solarized_hitrail=1
 colorscheme solarized
 
 highlight clear SignColumn
