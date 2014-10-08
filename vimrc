@@ -30,6 +30,8 @@ Plugin 'bling/vim-airline'
 
 call vundle#end()
 
+let g:CommandTFileScanner = 'watchman'
+
 syntax on
 filetype plugin indent on
 
