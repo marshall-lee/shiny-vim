@@ -33,6 +33,8 @@ call vundle#end()
 let g:CommandTFileScanner = 'watchman'
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
+
 syntax on
 filetype plugin indent on
 
