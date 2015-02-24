@@ -36,6 +36,11 @@ let g:CommandTFileScanner = 'watchman'
 
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
+map <Leader>rt :call RunCurrentSpecFile()<CR>
+map <Leader>rs :call RunNearestSpec()<CR>
+map <Leader>rl :call RunLastSpec()<CR>
+map <Leader>ra :call RunAllSpecs()<CR>
+
 syntax on
 filetype plugin indent on
 
