@@ -61,6 +61,7 @@ highlight SignifySignChange cterm=bold ctermfg=226
 let g:signify_update_on_focusgained=1
 let g:signify_cursorhold_normal=1
 let g:signify_update_on_bufenter=1
+let g:airline_powerline_fonts=1
 set tabstop=2 shiftwidth=2 expandtab
 set nu
 set mouse=a
