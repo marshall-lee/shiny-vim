@@ -15,6 +15,7 @@ $ vim +PluginInstall
 ```
 ## Install/build some external stuff
 - Install [the_silver_searcher](https://github.com/ggreer/the_silver_searcher).
+- Install [watchman](https://facebook.github.io/watchman/)
 - Build [Command-T](https://github.com/wincent/command-t):
 ```
 $ cd ~/.vim/bundle/Command-T/
