@@ -28,7 +28,7 @@ Visit homepages of particular plugins to learn more about all of them. Nonethele
 - `\t` or `\b` - open file list or buffer list respectively.
 - `:Ag <pattern>` - search for pattern through all the codes.
 - `:NERDTree` - show up NERDTree.
-- `\cc`, `\cu` - comment/uncomment code.
+- `\cc`, `\cu` - comment/uncomment code. `\cl` - comment with left align
 - watch vimcasts about how to effectively work with git using [fugitive](https://github.com/tpope/vim-fugitive).
 
 # Update
