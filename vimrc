@@ -40,6 +40,7 @@ map <Leader>rt :call RunCurrentSpecFile()<CR>
 map <Leader>rs :call RunNearestSpec()<CR>
 map <Leader>rl :call RunLastSpec()<CR>
 map <Leader>ra :call RunAllSpecs()<CR>
+map <C-c> "+y
 
 syntax on
 filetype plugin indent on
