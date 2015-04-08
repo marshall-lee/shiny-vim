@@ -22,8 +22,6 @@ Plugin 'wincent/Command-T'
 Plugin 'scrooloose/nerdtree'
 if has('gui_running')
   Plugin 'jistr/vim-nerdtree-tabs'
-else
-  Plugin 'fholgado/minibufexpl.vim'
 endif
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'scrooloose/nerdcommenter'
