@@ -56,6 +56,7 @@ else
   set background=dark
 endif
 let g:solarized_hitrail=1
+let g:solarized_termtrans=1
 colorscheme solarized
 
 highlight clear SignColumn
