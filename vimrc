@@ -59,6 +59,8 @@ let g:solarized_hitrail=1
 let g:solarized_termtrans=1
 colorscheme solarized
 
+set cursorline
+
 highlight clear SignColumn
 highlight SignifySignAdd    cterm=bold ctermfg=120
 highlight SignifySignDelete cterm=bold ctermfg=52
