@@ -35,7 +35,7 @@ call vundle#end()
 
 let g:CommandTFileScanner = 'watchman'
 
-let g:syntastic_ruby_checkers = ['mri', 'rubocop']
+let g:syntastic_ruby_checkers = ['mri']
 
 map <Leader>rt :call RunCurrentSpecFile()<CR>
 map <Leader>rs :call RunNearestSpec()<CR>
