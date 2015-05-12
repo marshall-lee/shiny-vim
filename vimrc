@@ -29,6 +29,7 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'rking/ag.vim'
 Plugin 'bling/vim-airline'
+Plugin 'Lokaltog/vim-easymotion'
 
 call vundle#end()
 
