@@ -31,6 +31,9 @@ Plugin 'Lokaltog/vim-easymotion'
 
 call vundle#end()
 
+let g:EasyMotion_do_mapping = 0
+let g:EasyMotion_smartcase = 1
+
 let g:CommandTFileScanner = 'watchman'
 
 let g:syntastic_ruby_checkers = ['mri']
@@ -42,6 +45,12 @@ map <Leader>rs :call RunNearestSpec()<CR>
 map <Leader>rl :call RunLastSpec()<CR>
 map <Leader>ra :call RunAllSpecs()<CR>
 map <C-c> "+y
+nmap / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+map <Leader>l <Plug>(easymotion-lineforward)
+map <Leader>h <Plug>(easymotion-linebackward)
 nnoremap <F2> :set invpaste paste?<CR>
 imap <F2> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F2>
