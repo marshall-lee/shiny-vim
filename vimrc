@@ -20,11 +20,7 @@ Plugin 'tpope/vim-cucumber'
 "Plugin 'kien/ctrlp.vim'
 Plugin 'wincent/Command-T'
 Plugin 'scrooloose/nerdtree'
-if has('gui_running')
-  Plugin 'jistr/vim-nerdtree-tabs'
-else
-  Plugin 'fholgado/minibufexpl.vim'
-endif
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'rking/ag.vim'
@@ -37,6 +33,8 @@ let g:CommandTFileScanner = 'watchman'
 
 let g:syntastic_ruby_checkers = ['mri']
 
+map <Leader>nt <Plug>NERDTreeTabsToggle<CR>
+map <Leader>nf <Plug>NERDTreeTabsFind<CR>
 map <Leader>rt :call RunCurrentSpecFile()<CR>
 map <Leader>rs :call RunNearestSpec()<CR>
 map <Leader>rl :call RunLastSpec()<CR>
