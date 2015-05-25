@@ -76,3 +76,6 @@ set tabstop=2 shiftwidth=2 expandtab
 set nu
 set mouse=a
 set clipboard=unnamed
+
+" custom file associations
+au BufRead,BufNewFile Eyefile setfiletype ruby
