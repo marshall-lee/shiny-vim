@@ -41,6 +41,8 @@ let g:CommandTFileScanner = 'git'
 
 let g:syntastic_ruby_checkers = ['mri']
 
+let g:indentLine_char = '│'
+
 map <Leader>nt <Plug>NERDTreeTabsToggle<CR>
 map <Leader>nf <Plug>NERDTreeTabsFind<CR>
 map <Leader>rt :call RunCurrentSpecFile()<CR>
