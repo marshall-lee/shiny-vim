@@ -23,8 +23,8 @@ Plugin 'slim-template/vim-slim'
 Plugin 'tpope/vim-cucumber'
 Plugin 'lambdatoast/elm.vim'
 Plugin 'raichoo/purescript-vim'
-"Plugin 'kien/ctrlp.vim'
-Plugin 'wincent/Command-T'
+" Plugin 'wincent/Command-T'
+Plugin 'thoughtbot/pick.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -42,6 +42,11 @@ let g:EasyMotion_do_mapping = 0
 let g:EasyMotion_smartcase = 1
 
 let g:CommandTFileScanner = 'git'
+nnoremap <Leader>. :call PickFile()<CR>
+nnoremap <Leader>.s :call PickFileSplit()<CR>
+nnoremap <Leader>.v :call PickFileVerticalSplit()<CR>
+nnoremap <Leader>.t :call PickFileTab()<CR>
+nnoremap <Leader>.b :call PickBuffer()<CR>
 
 let g:syntastic_ruby_checkers = ['mri']
 
