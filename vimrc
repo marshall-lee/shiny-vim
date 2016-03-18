@@ -41,7 +41,7 @@ let g:EasyMotion_do_mapping = 0
 let g:EasyMotion_smartcase = 1
 
 let g:CommandTFileScanner = 'git'
-nnoremap <Leader>. :call PickFile()<CR>
+nnoremap <Leader>.p :call PickFile()<CR>
 nnoremap <Leader>.s :call PickFileSplit()<CR>
 nnoremap <Leader>.v :call PickFileVerticalSplit()<CR>
 nnoremap <Leader>.t :call PickFileTab()<CR>
